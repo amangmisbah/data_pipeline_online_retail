@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: stg_onlie_retail
+    columns:
+      - name: InvoiceNo
+        tests:
+          - not_null
+      - name: StockCode
+        tests:
+          - not_null
+      - name: Description
+        tests:
+          - not_null
+      - name: Quantity
+        tests:
+          - not_null
+      - name: InvoiceDateInvoiceDate
+        tests:
+          - not_null
+      - name: UnitPrice
+        tests:
+          - not_null
+      - name: CustomerID
+        tests:
+          - not_null
+      - name: Country
+        tests:
+          - not_null
+  - name: country
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: iso
+        tests:
+          - not_null
+      - name: name
+        tests:
+          - not_null
+      - name: nicename
+        tests:
+          - not_null
+      - name: iso3
+        tests:
+          - not_null
+      - name: numcode
+        tests:
+          - not_null
+      - name: phonecode
+        tests:
+          - not_null

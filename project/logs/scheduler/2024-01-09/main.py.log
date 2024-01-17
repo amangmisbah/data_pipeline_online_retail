@@ -1,0 +1,1372 @@
+[2024-01-09T20:05:29.426+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:05:29.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:05:29.430+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:05:29.429+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:05:29.525+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:05:29.631+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:05:29.630+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:05:29.696+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:05:29.695+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:05:29.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.319 seconds
+[2024-01-09T20:06:00.413+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:06:00.414+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:06:00.417+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:00.417+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:06:00.438+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:06:00.476+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:00.476+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:06:00.515+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:00.515+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:06:00.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.138 seconds
+[2024-01-09T20:06:30.892+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:06:30.894+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:06:30.896+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:30.896+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:06:30.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:06:30.952+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:30.952+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:06:30.998+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:06:30.998+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:06:31.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.139 seconds
+[2024-01-09T20:07:01.301+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:07:01.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:07:01.305+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:01.304+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:07:01.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:07:01.355+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:01.355+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:07:01.392+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:01.392+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:07:01.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T20:07:31.459+0000] {processor.py:157} INFO - Started process (PID=272) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:07:31.460+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:07:31.464+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:31.464+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:07:31.487+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:07:31.525+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:31.524+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:07:31.572+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:07:31.571+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:07:31.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.157 seconds
+[2024-01-09T20:08:01.679+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:08:01.680+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:08:01.685+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:01.685+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:08:01.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:08:01.751+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:01.751+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:08:01.797+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:01.797+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:08:01.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.155 seconds
+[2024-01-09T20:08:32.175+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:08:32.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:08:32.180+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:32.180+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:08:32.207+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:08:32.243+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:32.242+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:08:32.293+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:08:32.293+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:08:32.324+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.154 seconds
+[2024-01-09T20:09:02.393+0000] {processor.py:157} INFO - Started process (PID=435) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:09:02.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:09:02.399+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:02.399+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:09:02.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:09:02.471+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:02.471+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:09:02.506+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:02.506+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:09:02.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.149 seconds
+[2024-01-09T20:09:32.629+0000] {processor.py:157} INFO - Started process (PID=489) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:09:32.630+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:09:32.635+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:32.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:09:32.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:09:32.699+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:32.699+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:09:32.733+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:09:32.733+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:09:32.758+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.134 seconds
+[2024-01-09T20:10:02.866+0000] {processor.py:157} INFO - Started process (PID=543) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:10:02.867+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:10:02.871+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:02.870+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:10:02.900+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:10:02.941+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:02.940+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:10:02.984+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:02.984+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:10:03.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.157 seconds
+[2024-01-09T20:10:33.361+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:10:33.362+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:10:33.366+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:33.365+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:10:33.384+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:10:33.425+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:33.425+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:10:33.476+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:10:33.475+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:10:33.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.167 seconds
+[2024-01-09T20:11:03.662+0000] {processor.py:157} INFO - Started process (PID=651) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:11:03.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:11:03.667+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:03.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:11:03.688+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:11:03.720+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:03.720+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:11:03.757+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:03.757+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:11:03.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T20:11:33.990+0000] {processor.py:157} INFO - Started process (PID=705) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:11:33.992+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:11:33.997+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:33.996+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:11:34.028+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:11:34.073+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:34.072+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:11:34.123+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:11:34.122+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:11:34.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.185 seconds
+[2024-01-09T20:12:04.650+0000] {processor.py:157} INFO - Started process (PID=759) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:12:04.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:12:04.656+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:04.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:12:04.674+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:12:04.710+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:04.710+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:12:04.753+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:04.753+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:12:04.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.135 seconds
+[2024-01-09T20:12:35.008+0000] {processor.py:157} INFO - Started process (PID=813) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:12:35.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:12:35.014+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:35.014+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:12:35.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:12:35.072+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:35.072+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:12:35.112+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:12:35.112+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:12:35.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T20:13:05.219+0000] {processor.py:157} INFO - Started process (PID=867) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:13:05.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:13:05.224+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:05.224+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:13:05.243+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:13:05.274+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:05.274+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:13:05.311+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:05.310+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:13:05.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T20:13:35.432+0000] {processor.py:157} INFO - Started process (PID=921) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:13:35.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:13:35.437+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:35.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:13:35.453+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:13:35.484+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:35.483+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:13:35.518+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:13:35.517+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:13:35.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.120 seconds
+[2024-01-09T20:14:05.637+0000] {processor.py:157} INFO - Started process (PID=975) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:14:05.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:14:05.643+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:05.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:14:05.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:14:05.694+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:05.693+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:14:05.730+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:05.729+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:14:05.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.124 seconds
+[2024-01-09T20:14:35.853+0000] {processor.py:157} INFO - Started process (PID=1031) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:14:35.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:14:35.857+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:35.857+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:14:35.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:14:35.908+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:35.908+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:14:35.941+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:14:35.941+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:14:35.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T20:15:06.147+0000] {processor.py:157} INFO - Started process (PID=1085) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:15:06.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:15:06.151+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:06.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:15:06.169+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:15:06.197+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:06.197+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:15:06.226+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:06.226+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:15:06.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.112 seconds
+[2024-01-09T20:15:36.587+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:15:36.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:15:36.592+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:36.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:15:36.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:15:36.642+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:36.641+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:15:36.674+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:15:36.674+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:15:36.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.115 seconds
+[2024-01-09T20:16:07.114+0000] {processor.py:157} INFO - Started process (PID=1194) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:16:07.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:16:07.120+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:07.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:16:07.146+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:16:07.187+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:07.187+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:16:07.232+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:07.232+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:16:07.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.150 seconds
+[2024-01-09T20:16:37.356+0000] {processor.py:157} INFO - Started process (PID=1248) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:16:37.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:16:37.361+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:37.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:16:37.385+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:16:37.435+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:37.435+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:16:37.512+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:16:37.512+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:16:37.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.198 seconds
+[2024-01-09T20:17:07.692+0000] {processor.py:157} INFO - Started process (PID=1302) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:17:07.694+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:17:07.698+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:07.697+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:17:07.738+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:17:07.794+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:07.794+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:17:07.846+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:07.846+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:17:07.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.197 seconds
+[2024-01-09T20:17:38.012+0000] {processor.py:157} INFO - Started process (PID=1356) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:17:38.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:17:38.024+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:38.024+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:17:38.089+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:17:38.128+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:38.128+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:17:38.199+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:17:38.199+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:17:38.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.244 seconds
+[2024-01-09T20:18:08.754+0000] {processor.py:157} INFO - Started process (PID=1409) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:18:08.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:18:08.761+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:08.760+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:18:08.798+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:18:08.874+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:08.874+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:18:08.990+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:08.990+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:18:09.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.318 seconds
+[2024-01-09T20:18:39.480+0000] {processor.py:157} INFO - Started process (PID=1464) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:18:39.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:18:39.486+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:39.485+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:18:39.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:18:39.541+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:39.540+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:18:39.573+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:18:39.573+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:18:39.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.465 seconds
+[2024-01-09T20:19:10.237+0000] {processor.py:157} INFO - Started process (PID=1518) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:19:10.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:19:10.246+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:10.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:19:10.285+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:19:10.359+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:10.358+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:19:10.446+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:10.446+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:19:10.545+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.317 seconds
+[2024-01-09T20:19:40.856+0000] {processor.py:157} INFO - Started process (PID=1572) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:19:40.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:19:40.987+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:40.987+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:19:41.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:19:41.039+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:41.039+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:19:41.071+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:19:41.070+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:19:41.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.437 seconds
+[2024-01-09T20:20:11.854+0000] {processor.py:157} INFO - Started process (PID=1626) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:20:11.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:20:11.859+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:11.859+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:20:11.888+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:20:11.920+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:11.920+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:20:11.956+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:11.956+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:20:12.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.231 seconds
+[2024-01-09T20:20:42.213+0000] {processor.py:157} INFO - Started process (PID=1680) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:20:42.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:20:42.218+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:42.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:20:42.238+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:20:42.267+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:42.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:20:42.303+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:20:42.302+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:20:42.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.273 seconds
+[2024-01-09T20:21:12.537+0000] {processor.py:157} INFO - Started process (PID=1734) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:21:12.606+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:21:12.608+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:12.608+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:21:12.626+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:21:12.655+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:12.655+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:21:12.688+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:12.687+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:21:12.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.254 seconds
+[2024-01-09T20:21:43.171+0000] {processor.py:157} INFO - Started process (PID=1788) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:21:43.200+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:21:43.204+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:43.203+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:21:43.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:21:43.247+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:43.246+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:21:43.474+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:21:43.473+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:21:43.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.651 seconds
+[2024-01-09T20:22:14.202+0000] {processor.py:157} INFO - Started process (PID=1842) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:22:14.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:22:14.205+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:14.205+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:22:14.229+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:22:14.257+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:14.257+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:22:14.301+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:14.301+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:22:14.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.184 seconds
+[2024-01-09T20:22:44.773+0000] {processor.py:157} INFO - Started process (PID=1896) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:22:44.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:22:44.789+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:44.789+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:22:44.817+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:22:44.850+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:44.849+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:22:44.889+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:22:44.889+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:22:45.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.295 seconds
+[2024-01-09T20:23:15.266+0000] {processor.py:157} INFO - Started process (PID=1950) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:23:15.267+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:23:15.272+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:15.271+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:23:15.292+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:23:15.325+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:15.325+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:23:15.360+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:15.360+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:23:15.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.181 seconds
+[2024-01-09T20:23:45.671+0000] {processor.py:157} INFO - Started process (PID=2003) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:23:45.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:23:45.729+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:45.728+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:23:45.751+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:23:45.781+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:45.781+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:23:45.994+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:23:45.993+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:23:46.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.454 seconds
+[2024-01-09T20:24:17.071+0000] {processor.py:157} INFO - Started process (PID=2057) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:24:17.073+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:24:17.077+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:17.076+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:24:17.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:24:17.131+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:17.130+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:24:17.352+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:17.351+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:24:17.426+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.361 seconds
+[2024-01-09T20:24:48.082+0000] {processor.py:157} INFO - Started process (PID=2111) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:24:48.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:24:48.087+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:48.086+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:24:48.107+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:24:48.142+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:48.142+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:24:48.379+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:24:48.379+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:24:48.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.379 seconds
+[2024-01-09T20:25:18.780+0000] {processor.py:157} INFO - Started process (PID=2165) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:25:18.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:25:18.785+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:18.785+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:25:18.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:25:18.848+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:18.848+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:25:18.891+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:18.891+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:25:19.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.232 seconds
+[2024-01-09T20:25:49.504+0000] {processor.py:157} INFO - Started process (PID=2220) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:25:49.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:25:49.510+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:49.509+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:25:49.727+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:25:49.755+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:49.755+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:25:49.786+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:25:49.786+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:25:49.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.363 seconds
+[2024-01-09T20:26:20.554+0000] {processor.py:157} INFO - Started process (PID=2273) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:26:20.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:26:20.566+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:20.566+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:26:20.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:26:20.624+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:20.623+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:26:20.665+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:20.665+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:26:20.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.206 seconds
+[2024-01-09T20:26:50.862+0000] {processor.py:157} INFO - Started process (PID=2327) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:26:50.864+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:26:50.868+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:50.868+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:26:50.888+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:26:50.923+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:50.922+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:26:50.967+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:26:50.967+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:26:51.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.152 seconds
+[2024-01-09T20:27:21.798+0000] {processor.py:157} INFO - Started process (PID=2381) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:27:21.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:27:21.803+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:21.802+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:27:21.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:27:21.853+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:21.853+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:27:21.887+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:21.887+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:27:21.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.121 seconds
+[2024-01-09T20:27:52.185+0000] {processor.py:157} INFO - Started process (PID=2435) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:27:52.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:27:52.190+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:52.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:27:52.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:27:52.263+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:52.263+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:27:52.316+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:27:52.315+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:27:52.350+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.170 seconds
+[2024-01-09T20:28:22.457+0000] {processor.py:157} INFO - Started process (PID=2489) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:28:22.470+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:28:22.475+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:22.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:28:22.492+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:28:22.546+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:22.545+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:28:22.585+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:22.584+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:28:22.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.159 seconds
+[2024-01-09T20:28:52.656+0000] {processor.py:157} INFO - Started process (PID=2543) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:28:52.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:28:52.661+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:52.661+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:28:52.681+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:28:52.710+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:52.710+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:28:52.741+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:28:52.741+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:28:52.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.116 seconds
+[2024-01-09T20:29:23.580+0000] {processor.py:157} INFO - Started process (PID=2597) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:29:23.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:29:23.585+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:23.585+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:29:23.605+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:29:23.643+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:23.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:29:23.688+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:23.687+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:29:23.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.147 seconds
+[2024-01-09T20:29:54.122+0000] {processor.py:157} INFO - Started process (PID=2651) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:29:54.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:29:54.128+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:54.128+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:29:54.149+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:29:54.185+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:54.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:29:54.230+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:29:54.229+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:29:54.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2024-01-09T20:30:24.996+0000] {processor.py:157} INFO - Started process (PID=2704) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:30:24.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:30:25.001+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:25.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:30:25.021+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:30:25.052+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:25.052+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:30:25.105+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:25.105+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:30:25.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.148 seconds
+[2024-01-09T20:30:55.297+0000] {processor.py:157} INFO - Started process (PID=2758) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:30:55.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:30:55.303+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:55.302+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:30:55.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:30:55.360+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:55.360+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:30:55.409+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:30:55.408+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:30:55.439+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2024-01-09T20:31:25.681+0000] {processor.py:157} INFO - Started process (PID=2814) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:31:25.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:31:25.688+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:25.687+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:31:25.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:31:25.766+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:25.766+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:31:25.819+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:25.819+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:31:25.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.178 seconds
+[2024-01-09T20:31:55.937+0000] {processor.py:157} INFO - Started process (PID=2868) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:31:55.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:31:55.942+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:55.942+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:31:55.962+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:31:55.991+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:55.991+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:31:56.033+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:31:56.033+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:31:56.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.127 seconds
+[2024-01-09T20:32:26.224+0000] {processor.py:157} INFO - Started process (PID=2922) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:32:26.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:32:26.231+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:26.230+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:32:26.251+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:32:26.282+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:26.281+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:32:26.317+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:26.317+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:32:26.341+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T20:32:56.585+0000] {processor.py:157} INFO - Started process (PID=2976) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:32:56.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:32:56.592+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:56.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:32:56.613+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:32:56.643+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:56.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:32:56.677+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:32:56.677+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:32:56.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.122 seconds
+[2024-01-09T20:33:27.514+0000] {processor.py:157} INFO - Started process (PID=3030) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:33:27.515+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:33:27.520+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:27.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:33:27.540+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:33:27.577+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:27.577+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:33:27.618+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:27.618+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:33:27.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.137 seconds
+[2024-01-09T20:33:58.421+0000] {processor.py:157} INFO - Started process (PID=3084) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:33:58.423+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:33:58.428+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:58.427+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:33:58.459+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:33:58.502+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:58.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:33:58.545+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:33:58.544+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:33:58.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.163 seconds
+[2024-01-09T20:34:29.349+0000] {processor.py:157} INFO - Started process (PID=3138) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:34:29.350+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:34:29.355+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:34:29.354+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:34:29.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:34:29.413+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:34:29.413+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:34:29.461+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:34:29.461+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:34:29.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.147 seconds
+[2024-01-09T20:35:00.227+0000] {processor.py:157} INFO - Started process (PID=3193) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:35:00.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:35:00.233+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:00.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:35:00.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:35:00.291+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:00.290+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:35:00.348+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:00.348+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:35:00.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.155 seconds
+[2024-01-09T20:35:30.612+0000] {processor.py:157} INFO - Started process (PID=3247) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:35:30.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:35:30.617+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:30.617+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:35:30.647+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:35:30.680+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:30.680+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:35:30.719+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:35:30.719+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:35:30.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2024-01-09T20:36:00.951+0000] {processor.py:157} INFO - Started process (PID=3302) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:36:00.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:36:00.957+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:00.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:36:00.979+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:36:01.013+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:01.013+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:36:01.048+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:01.047+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:36:01.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T20:36:31.516+0000] {processor.py:157} INFO - Started process (PID=3356) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:36:31.518+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:36:31.522+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:31.521+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:36:31.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:36:31.579+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:31.578+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:36:31.623+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:36:31.623+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:36:31.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.137 seconds
+[2024-01-09T20:37:02.441+0000] {processor.py:157} INFO - Started process (PID=3411) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:37:02.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:37:02.447+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:02.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:37:02.466+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:37:02.498+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:02.498+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:37:02.550+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:02.550+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:37:02.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.148 seconds
+[2024-01-09T20:37:33.097+0000] {processor.py:157} INFO - Started process (PID=3465) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:37:33.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:37:33.103+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:33.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:37:33.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:37:33.158+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:33.158+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:37:33.203+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:37:33.203+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:37:33.235+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.143 seconds
+[2024-01-09T20:38:03.718+0000] {processor.py:157} INFO - Started process (PID=3519) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:38:03.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:38:03.722+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:03.722+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:38:03.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:38:03.779+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:03.779+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:38:03.824+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:03.824+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:38:03.855+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.155 seconds
+[2024-01-09T20:38:34.341+0000] {processor.py:157} INFO - Started process (PID=3573) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:38:34.342+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:38:34.346+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:34.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:38:34.366+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:38:34.396+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:34.395+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:38:34.438+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:38:34.438+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:38:34.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T20:39:04.854+0000] {processor.py:157} INFO - Started process (PID=3628) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:39:04.856+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:39:04.860+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:04.859+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:39:04.880+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:39:04.912+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:04.912+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:39:04.951+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:04.950+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:39:04.976+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T20:39:35.541+0000] {processor.py:157} INFO - Started process (PID=3682) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:39:35.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:39:35.545+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:35.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:39:35.565+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:39:35.606+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:35.606+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:39:35.652+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:39:35.652+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:39:35.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.147 seconds
+[2024-01-09T20:40:05.883+0000] {processor.py:157} INFO - Started process (PID=3737) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:40:05.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:40:05.890+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:05.889+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:40:05.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:40:05.966+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:05.965+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:40:06.025+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:06.025+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:40:06.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.191 seconds
+[2024-01-09T20:40:36.283+0000] {processor.py:157} INFO - Started process (PID=3792) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:40:36.284+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:40:36.288+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:36.288+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:40:36.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:40:36.344+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:36.344+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:40:36.389+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:40:36.389+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:40:36.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T20:41:06.581+0000] {processor.py:157} INFO - Started process (PID=3846) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:41:06.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:41:06.586+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:06.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:41:06.613+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:41:06.652+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:06.651+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:41:06.703+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:06.702+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:41:06.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.160 seconds
+[2024-01-09T20:41:37.018+0000] {processor.py:157} INFO - Started process (PID=3900) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:41:37.020+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:41:37.023+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:37.023+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:41:37.044+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:41:37.081+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:37.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:41:37.128+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:41:37.127+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:41:37.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T20:42:07.313+0000] {processor.py:157} INFO - Started process (PID=3954) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:42:07.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:42:07.318+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:07.318+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:42:07.339+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:42:07.369+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:07.369+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:42:07.404+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:07.403+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:42:07.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T20:42:38.055+0000] {processor.py:157} INFO - Started process (PID=4008) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:42:38.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:42:38.062+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:38.061+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:42:38.084+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:42:38.114+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:38.114+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:42:38.147+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:42:38.147+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:42:38.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.125 seconds
+[2024-01-09T20:43:08.682+0000] {processor.py:157} INFO - Started process (PID=4062) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:43:08.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:43:08.687+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:08.687+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:43:08.708+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:43:08.745+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:08.745+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:43:08.789+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:08.789+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:43:08.819+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.142 seconds
+[2024-01-09T20:43:39.265+0000] {processor.py:157} INFO - Started process (PID=4117) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:43:39.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:43:39.270+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:39.270+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:43:39.292+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:43:39.333+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:39.333+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:43:39.376+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:43:39.376+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:43:39.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.148 seconds
+[2024-01-09T20:44:09.684+0000] {processor.py:157} INFO - Started process (PID=4172) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:44:09.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:44:09.689+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:09.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:44:09.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:44:09.760+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:09.759+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:44:09.809+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:09.809+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:44:09.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.160 seconds
+[2024-01-09T20:44:40.275+0000] {processor.py:157} INFO - Started process (PID=4226) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:44:40.276+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:44:40.280+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:40.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:44:40.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:44:40.331+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:40.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:44:40.363+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:44:40.363+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:44:40.387+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T20:45:10.562+0000] {processor.py:157} INFO - Started process (PID=4280) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:45:10.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:45:10.567+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:10.567+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:45:10.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:45:10.620+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:10.620+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:45:10.662+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:10.662+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:45:10.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.131 seconds
+[2024-01-09T20:45:40.799+0000] {processor.py:157} INFO - Started process (PID=4334) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:45:40.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:45:40.804+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:40.803+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:45:40.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:45:40.854+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:40.853+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:45:40.892+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:45:40.891+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:45:40.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.124 seconds
+[2024-01-09T20:46:11.341+0000] {processor.py:157} INFO - Started process (PID=4393) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:46:11.342+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:46:11.346+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:11.345+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:46:11.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:46:11.403+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:11.402+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:46:11.439+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:11.438+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:46:11.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-01-09T20:46:42.127+0000] {processor.py:157} INFO - Started process (PID=4448) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:46:42.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:46:42.133+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:42.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:46:42.154+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:46:42.189+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:42.189+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:46:42.233+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:46:42.233+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:46:42.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T20:47:12.953+0000] {processor.py:157} INFO - Started process (PID=4502) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:47:12.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:47:12.957+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:12.956+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:47:12.976+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:47:13.009+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:13.008+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:47:13.047+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:13.046+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:47:13.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.131 seconds
+[2024-01-09T20:47:43.427+0000] {processor.py:157} INFO - Started process (PID=4556) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:47:43.429+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:47:43.434+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:43.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:47:43.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:47:43.493+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:43.492+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:47:43.538+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:47:43.538+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:47:43.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.144 seconds
+[2024-01-09T20:48:13.856+0000] {processor.py:157} INFO - Started process (PID=4610) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:48:13.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:48:13.861+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:13.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:48:13.880+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:48:13.912+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:13.912+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:48:13.949+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:13.948+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:48:13.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.126 seconds
+[2024-01-09T20:48:44.153+0000] {processor.py:157} INFO - Started process (PID=4664) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:48:44.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:48:44.158+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:44.157+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:48:44.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:48:44.215+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:44.214+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:48:44.258+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:48:44.258+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:48:44.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.139 seconds
+[2024-01-09T20:49:14.365+0000] {processor.py:157} INFO - Started process (PID=4718) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:49:14.367+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:49:14.370+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:14.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:49:14.391+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:49:14.422+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:14.422+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:49:14.461+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:14.460+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:49:14.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.125 seconds
+[2024-01-09T20:49:44.838+0000] {processor.py:157} INFO - Started process (PID=4772) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:49:44.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:49:44.843+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:44.842+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:49:44.864+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:49:44.895+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:44.895+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:49:44.933+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:49:44.932+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:49:44.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.125 seconds
+[2024-01-09T20:50:15.007+0000] {processor.py:157} INFO - Started process (PID=4826) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:50:15.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:50:15.012+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:15.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:50:15.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:50:15.061+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:15.061+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:50:15.111+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:15.111+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:50:15.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.148 seconds
+[2024-01-09T20:50:45.211+0000] {processor.py:157} INFO - Started process (PID=4880) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:50:45.213+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:50:45.217+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:45.216+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:50:45.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:50:45.268+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:45.268+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:50:45.300+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:50:45.299+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:50:45.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T20:51:15.595+0000] {processor.py:157} INFO - Started process (PID=4934) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:51:15.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:51:15.600+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:15.600+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:51:15.648+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:51:15.718+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:15.718+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:51:15.773+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:15.773+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:51:15.810+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.223 seconds
+[2024-01-09T20:51:46.595+0000] {processor.py:157} INFO - Started process (PID=4988) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:51:46.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:51:46.599+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:46.599+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:51:46.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:51:46.648+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:46.648+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:51:46.683+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:51:46.683+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:51:46.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.120 seconds
+[2024-01-09T20:52:17.287+0000] {processor.py:157} INFO - Started process (PID=5042) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:52:17.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:52:17.292+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:17.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:52:17.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:52:17.347+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:17.347+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:52:17.388+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:17.388+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:52:17.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.139 seconds
+[2024-01-09T20:52:48.142+0000] {processor.py:157} INFO - Started process (PID=5096) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:52:48.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:52:48.147+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:48.147+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:52:48.174+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:52:48.212+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:48.211+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:52:48.257+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:52:48.256+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:52:48.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.154 seconds
+[2024-01-09T20:53:18.605+0000] {processor.py:157} INFO - Started process (PID=5151) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:53:18.606+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:53:18.610+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:18.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:53:18.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:53:18.666+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:18.665+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:53:18.706+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:18.706+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:53:18.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.137 seconds
+[2024-01-09T20:53:48.947+0000] {processor.py:157} INFO - Started process (PID=5206) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:53:48.948+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:53:48.951+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:48.951+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:53:48.971+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:53:49.007+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:49.007+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:53:49.054+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:53:49.053+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:53:49.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T20:54:19.756+0000] {processor.py:157} INFO - Started process (PID=5261) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:54:19.757+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:54:19.761+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:19.760+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:54:19.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:54:19.815+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:19.814+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:54:19.863+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:19.863+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:54:19.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T20:54:50.159+0000] {processor.py:157} INFO - Started process (PID=5315) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:54:50.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:54:50.166+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:50.165+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:54:50.188+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:54:50.220+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:50.220+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:54:50.271+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:54:50.271+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:54:50.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.151 seconds
+[2024-01-09T20:55:20.672+0000] {processor.py:157} INFO - Started process (PID=5369) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:55:20.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:55:20.676+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:20.676+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:55:20.696+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:55:20.730+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:20.730+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:55:20.782+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:20.782+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:55:20.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.152 seconds
+[2024-01-09T20:55:51.526+0000] {processor.py:157} INFO - Started process (PID=5423) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:55:51.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:55:51.530+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:51.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:55:51.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:55:51.588+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:51.588+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:55:51.628+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:55:51.628+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:55:51.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2024-01-09T20:56:22.477+0000] {processor.py:157} INFO - Started process (PID=5477) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:56:22.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:56:22.492+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:22.491+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:56:22.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:56:22.650+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:22.650+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:56:22.719+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:22.719+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:56:22.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.321 seconds
+[2024-01-09T20:56:53.153+0000] {processor.py:157} INFO - Started process (PID=5532) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:56:53.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:56:53.158+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:53.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:56:53.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:56:53.209+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:53.209+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:56:53.242+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:56:53.242+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:56:53.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T20:57:23.939+0000] {processor.py:157} INFO - Started process (PID=5587) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:57:23.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:57:23.945+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:23.945+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:57:23.987+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:57:24.043+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:24.043+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:57:24.085+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:24.084+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:57:24.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.189 seconds
+[2024-01-09T20:57:54.533+0000] {processor.py:157} INFO - Started process (PID=5641) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:57:54.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:57:54.538+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:54.537+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:57:54.561+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:57:54.605+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:54.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:57:54.653+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:57:54.652+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:57:54.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.151 seconds
+[2024-01-09T20:58:24.729+0000] {processor.py:157} INFO - Started process (PID=5695) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:58:24.730+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:58:24.734+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:24.734+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:58:24.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:58:24.804+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:24.804+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:58:24.856+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:24.855+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:58:24.889+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.166 seconds
+[2024-01-09T20:58:55.249+0000] {processor.py:157} INFO - Started process (PID=5749) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:58:55.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:58:55.254+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:55.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:58:55.275+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:58:55.308+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:55.308+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:58:55.356+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:58:55.356+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:58:55.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.153 seconds
+[2024-01-09T20:59:26.188+0000] {processor.py:157} INFO - Started process (PID=5804) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:59:26.189+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:59:26.193+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:26.193+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:59:26.215+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:59:26.251+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:26.250+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:59:26.285+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:26.284+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:59:26.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-01-09T20:59:56.744+0000] {processor.py:157} INFO - Started process (PID=5858) to work on /opt/airflow/dags/main.py
+[2024-01-09T20:59:56.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T20:59:56.750+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:56.750+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T20:59:56.778+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T20:59:56.809+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:56.809+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T20:59:56.842+0000] {logging_mixin.py:151} INFO - [2024-01-09T20:59:56.842+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T20:59:56.867+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:00:27.364+0000] {processor.py:157} INFO - Started process (PID=5912) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:00:27.366+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:00:27.370+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:27.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:00:27.390+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:00:27.425+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:27.425+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:00:27.470+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:27.470+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:00:27.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T21:00:57.816+0000] {processor.py:157} INFO - Started process (PID=5966) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:00:57.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:00:57.821+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:57.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:00:57.842+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:00:57.875+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:57.875+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:00:57.913+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:00:57.912+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:00:57.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:01:28.548+0000] {processor.py:157} INFO - Started process (PID=6021) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:01:28.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:01:28.553+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:28.553+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:01:28.574+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:01:28.609+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:28.608+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:01:28.644+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:28.644+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:01:28.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.131 seconds
+[2024-01-09T21:01:59.087+0000] {processor.py:157} INFO - Started process (PID=6075) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:01:59.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:01:59.091+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:59.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:01:59.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:01:59.154+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:59.154+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:01:59.187+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:01:59.187+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:01:59.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:02:30.018+0000] {processor.py:157} INFO - Started process (PID=6130) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:02:30.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:02:30.022+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:02:30.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:02:30.046+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:02:30.075+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:02:30.075+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:02:30.109+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:02:30.108+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:02:30.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.121 seconds
+[2024-01-09T21:03:00.586+0000] {processor.py:157} INFO - Started process (PID=6185) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:03:00.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:03:00.591+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:00.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:03:00.614+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:03:00.645+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:00.645+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:03:00.681+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:00.681+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:03:00.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T21:03:31.087+0000] {processor.py:157} INFO - Started process (PID=6239) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:03:31.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:03:31.091+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:31.091+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:03:31.113+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:03:31.142+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:31.142+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:03:31.175+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:03:31.174+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:03:31.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.118 seconds
+[2024-01-09T21:04:01.881+0000] {processor.py:157} INFO - Started process (PID=6293) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:04:01.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:04:01.886+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:01.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:04:01.909+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:04:01.940+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:01.940+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:04:01.973+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:01.973+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:04:01.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T21:04:32.173+0000] {processor.py:157} INFO - Started process (PID=6347) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:04:32.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:04:32.178+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:32.177+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:04:32.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:04:32.233+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:32.233+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:04:32.267+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:04:32.266+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:04:32.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T21:05:02.370+0000] {processor.py:157} INFO - Started process (PID=6401) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:05:02.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:05:02.375+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:02.375+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:05:02.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:05:02.440+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:02.439+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:05:02.485+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:02.485+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:05:02.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.151 seconds
+[2024-01-09T21:05:32.653+0000] {processor.py:157} INFO - Started process (PID=6456) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:05:32.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:05:32.657+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:32.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:05:32.679+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:05:32.715+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:32.714+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:05:32.759+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:05:32.758+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:05:32.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T21:06:03.089+0000] {processor.py:157} INFO - Started process (PID=6509) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:06:03.091+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:06:03.094+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:03.094+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:06:03.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:06:03.148+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:03.148+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:06:03.183+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:03.183+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:06:03.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.126 seconds
+[2024-01-09T21:06:33.314+0000] {processor.py:157} INFO - Started process (PID=6563) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:06:33.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:06:33.320+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:33.319+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:06:33.341+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:06:33.372+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:33.372+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:06:33.415+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:06:33.415+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:06:33.442+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.135 seconds
+[2024-01-09T21:07:04.071+0000] {processor.py:157} INFO - Started process (PID=6617) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:07:04.072+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:07:04.077+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:04.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:07:04.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:07:04.164+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:04.164+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:07:04.211+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:04.211+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:07:04.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.185 seconds
+[2024-01-09T21:07:34.462+0000] {processor.py:157} INFO - Started process (PID=6671) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:07:34.463+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:07:34.468+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:34.467+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:07:34.495+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:07:34.528+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:34.528+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:07:34.562+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:07:34.562+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:07:34.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.134 seconds
+[2024-01-09T21:08:04.633+0000] {processor.py:157} INFO - Started process (PID=6725) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:08:04.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:08:04.638+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:04.638+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:08:04.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:08:04.689+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:04.688+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:08:04.741+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:04.740+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:08:04.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.148 seconds
+[2024-01-09T21:08:34.861+0000] {processor.py:157} INFO - Started process (PID=6780) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:08:34.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:08:34.866+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:34.866+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:08:34.887+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:08:34.917+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:34.917+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:08:34.951+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:08:34.951+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:08:34.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T21:09:05.137+0000] {processor.py:157} INFO - Started process (PID=6834) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:09:05.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:09:05.142+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:05.141+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:09:05.163+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:09:05.198+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:05.198+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:09:05.243+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:05.243+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:09:05.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.142 seconds
+[2024-01-09T21:09:35.940+0000] {processor.py:157} INFO - Started process (PID=6888) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:09:35.942+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:09:35.945+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:35.944+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:09:35.964+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:09:35.998+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:35.998+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:09:36.036+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:09:36.036+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:09:36.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-01-09T21:10:06.758+0000] {processor.py:157} INFO - Started process (PID=6942) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:10:06.759+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:10:06.762+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:06.762+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:10:06.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:10:06.814+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:06.814+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:10:06.851+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:06.851+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:10:06.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T21:10:37.037+0000] {processor.py:157} INFO - Started process (PID=6996) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:10:37.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:10:37.042+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:37.041+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:10:37.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:10:37.098+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:37.098+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:10:37.139+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:10:37.138+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:10:37.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.135 seconds
+[2024-01-09T21:11:07.305+0000] {processor.py:157} INFO - Started process (PID=7051) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:11:07.306+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:11:07.309+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:07.308+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:11:07.329+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:11:07.361+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:07.361+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:11:07.400+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:07.399+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:11:07.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-01-09T21:11:38.228+0000] {processor.py:157} INFO - Started process (PID=7104) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:11:38.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:11:38.233+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:38.233+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:11:38.254+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:11:38.285+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:38.285+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:11:38.318+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:11:38.318+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:11:38.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T21:12:08.572+0000] {processor.py:157} INFO - Started process (PID=7158) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:12:08.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:12:08.578+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:08.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:12:08.600+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:12:08.632+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:08.632+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:12:08.667+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:08.667+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:12:08.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.124 seconds
+[2024-01-09T21:12:39.009+0000] {processor.py:157} INFO - Started process (PID=7211) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:12:39.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:12:39.014+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:39.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:12:39.043+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:12:39.076+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:39.076+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:12:39.112+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:12:39.112+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:12:39.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.135 seconds
+[2024-01-09T21:13:09.170+0000] {processor.py:157} INFO - Started process (PID=7265) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:13:09.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:13:09.174+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:09.174+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:13:09.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:13:09.225+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:09.225+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:13:09.261+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:09.261+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:13:09.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T21:13:39.881+0000] {processor.py:157} INFO - Started process (PID=7319) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:13:39.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:13:39.886+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:39.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:13:39.913+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:13:39.952+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:39.952+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:13:40.000+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:13:40.000+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:13:40.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.159 seconds
+[2024-01-09T21:14:10.371+0000] {processor.py:157} INFO - Started process (PID=7374) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:14:10.372+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:14:10.375+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:10.375+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:14:10.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:14:10.425+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:10.425+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:14:10.458+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:10.458+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:14:10.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.119 seconds
+[2024-01-09T21:14:40.755+0000] {processor.py:157} INFO - Started process (PID=7429) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:14:40.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:14:40.759+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:40.758+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:14:40.790+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:14:40.829+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:40.829+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:14:40.871+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:14:40.871+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:14:40.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2024-01-09T21:15:11.080+0000] {processor.py:157} INFO - Started process (PID=7483) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:15:11.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:15:11.086+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:11.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:15:11.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:15:11.141+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:11.141+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:15:11.175+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:11.175+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:15:11.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:15:41.499+0000] {processor.py:157} INFO - Started process (PID=7537) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:15:41.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:15:41.503+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:41.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:15:41.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:15:41.565+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:41.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:15:41.605+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:15:41.605+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:15:41.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T21:16:12.098+0000] {processor.py:157} INFO - Started process (PID=7592) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:16:12.100+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:16:12.103+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:12.102+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:16:12.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:16:12.152+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:12.152+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:16:12.184+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:12.184+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:16:12.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.114 seconds
+[2024-01-09T21:16:42.634+0000] {processor.py:157} INFO - Started process (PID=7646) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:16:42.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:16:42.638+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:42.638+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:16:42.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:16:42.693+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:42.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:16:42.729+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:16:42.729+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:16:42.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-01-09T21:17:12.905+0000] {processor.py:157} INFO - Started process (PID=7700) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:17:12.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:17:12.910+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:12.910+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:17:12.932+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:17:12.969+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:12.969+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:17:13.014+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:13.014+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:17:13.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.147 seconds
+[2024-01-09T21:17:43.391+0000] {processor.py:157} INFO - Started process (PID=7754) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:17:43.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:17:43.397+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:43.397+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:17:43.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:17:43.449+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:43.449+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:17:43.496+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:17:43.496+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:17:43.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.138 seconds
+[2024-01-09T21:18:14.378+0000] {processor.py:157} INFO - Started process (PID=7808) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:18:14.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:18:14.384+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:14.383+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:18:14.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:18:14.437+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:14.437+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:18:14.470+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:14.470+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:18:14.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.121 seconds
+[2024-01-09T21:18:44.969+0000] {processor.py:157} INFO - Started process (PID=7863) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:18:44.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:18:44.980+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:44.980+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:18:45.010+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:18:45.079+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:45.079+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:18:45.138+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:18:45.137+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:18:45.176+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.218 seconds
+[2024-01-09T21:19:15.525+0000] {processor.py:157} INFO - Started process (PID=7917) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:19:15.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:19:15.529+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:15.529+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:19:15.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:19:15.595+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:15.594+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:19:15.634+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:15.634+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:19:15.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.147 seconds
+[2024-01-09T21:19:45.745+0000] {processor.py:157} INFO - Started process (PID=7971) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:19:45.746+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:19:45.749+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:45.749+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:19:45.771+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:19:45.802+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:45.802+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:19:45.842+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:19:45.842+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:19:45.870+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-01-09T21:20:16.249+0000] {processor.py:157} INFO - Started process (PID=8025) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:20:16.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:20:16.253+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:16.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:20:16.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:20:16.310+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:16.309+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:20:16.353+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:16.352+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:20:16.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.137 seconds
+[2024-01-09T21:20:46.880+0000] {processor.py:157} INFO - Started process (PID=8079) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:20:46.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:20:46.885+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:46.884+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:20:46.905+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:20:46.940+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:46.940+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:20:46.983+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:20:46.982+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:20:47.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-01-09T21:21:17.392+0000] {processor.py:157} INFO - Started process (PID=8133) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:21:17.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:21:17.397+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:17.397+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:21:17.420+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:21:17.451+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:17.451+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:21:17.501+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:17.501+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:21:17.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.150 seconds
+[2024-01-09T21:21:48.254+0000] {processor.py:157} INFO - Started process (PID=8187) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:21:48.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:21:48.260+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:48.259+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:21:48.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:21:48.330+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:48.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:21:48.367+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:21:48.367+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:21:48.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.152 seconds
+[2024-01-09T21:22:18.462+0000] {processor.py:157} INFO - Started process (PID=8241) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:22:18.463+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:22:18.466+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:18.465+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:22:18.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:22:18.515+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:18.515+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:22:18.551+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:18.550+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:22:18.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T21:22:49.236+0000] {processor.py:157} INFO - Started process (PID=8296) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:22:49.237+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:22:49.241+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:49.240+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:22:49.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:22:49.396+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:49.395+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:22:49.530+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:22:49.530+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:22:49.596+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.367 seconds
+[2024-01-09T21:23:20.112+0000] {processor.py:157} INFO - Started process (PID=8358) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:23:20.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:23:20.116+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:20.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:23:20.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:23:20.166+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:20.165+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:23:20.200+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:20.200+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:23:20.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.118 seconds
+[2024-01-09T21:23:51.076+0000] {processor.py:157} INFO - Started process (PID=8412) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:23:51.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:23:51.080+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:51.080+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:23:51.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:23:51.137+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:51.137+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:23:51.174+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:23:51.174+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:23:51.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:24:21.630+0000] {processor.py:157} INFO - Started process (PID=8466) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:24:21.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:24:21.638+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:21.637+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:24:21.662+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:24:21.706+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:21.705+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:24:21.744+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:21.743+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:24:21.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.143 seconds
+[2024-01-09T21:24:51.825+0000] {processor.py:157} INFO - Started process (PID=8521) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:24:51.830+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:24:51.834+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:51.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:24:51.868+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:24:51.977+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:51.976+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:24:52.075+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:24:52.074+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:24:52.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.293 seconds
+[2024-01-09T21:25:22.237+0000] {processor.py:157} INFO - Started process (PID=8575) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:25:22.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:25:22.242+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:22.242+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:25:22.264+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:25:22.299+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:22.299+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:25:22.344+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:22.344+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:25:22.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.142 seconds
+[2024-01-09T21:25:53.082+0000] {processor.py:157} INFO - Started process (PID=8628) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:25:53.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:25:53.087+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:53.086+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:25:53.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:25:53.139+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:53.139+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:25:53.174+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:25:53.174+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:25:53.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.122 seconds
+[2024-01-09T21:26:23.362+0000] {processor.py:157} INFO - Started process (PID=8681) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:26:23.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:26:23.366+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:23.366+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:26:23.393+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:26:23.423+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:23.423+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:26:23.456+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:23.456+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:26:23.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.123 seconds
+[2024-01-09T21:26:53.553+0000] {processor.py:157} INFO - Started process (PID=8735) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:26:53.554+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:26:53.558+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:53.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:26:53.579+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:26:53.608+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:53.608+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:26:53.650+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:26:53.649+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:26:53.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.139 seconds
+[2024-01-09T21:27:23.948+0000] {processor.py:157} INFO - Started process (PID=8789) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:27:23.949+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:27:23.954+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:23.953+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:27:23.976+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:27:24.007+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:24.007+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:27:24.044+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:24.043+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:27:24.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.131 seconds
+[2024-01-09T21:27:55.072+0000] {processor.py:157} INFO - Started process (PID=8843) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:27:55.073+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:27:55.077+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:55.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:27:55.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:27:55.128+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:55.127+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:27:55.161+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:27:55.160+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:27:55.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.122 seconds
+[2024-01-09T21:28:25.613+0000] {processor.py:157} INFO - Started process (PID=8897) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:28:25.615+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:28:25.619+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:25.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:28:25.641+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:28:25.674+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:25.673+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:28:25.718+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:25.718+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:28:25.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T21:28:55.801+0000] {processor.py:157} INFO - Started process (PID=8952) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:28:55.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:28:55.805+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:55.805+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:28:55.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:28:55.854+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:55.854+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:28:55.886+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:28:55.885+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:28:55.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.114 seconds
+[2024-01-09T21:29:26.233+0000] {processor.py:157} INFO - Started process (PID=9007) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:29:26.234+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:29:26.238+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:26.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:29:26.259+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:29:26.290+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:26.290+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:29:26.329+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:26.328+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:29:26.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.129 seconds
+[2024-01-09T21:29:56.732+0000] {processor.py:157} INFO - Started process (PID=9061) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:29:56.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:29:56.737+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:56.737+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:29:56.767+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:29:56.809+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:56.809+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:29:56.852+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:29:56.852+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:29:56.888+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.162 seconds
+[2024-01-09T21:30:27.153+0000] {processor.py:157} INFO - Started process (PID=9115) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:30:27.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:30:27.159+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:27.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:30:27.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:30:27.261+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:27.260+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:30:27.337+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:27.337+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:30:27.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.234 seconds
+[2024-01-09T21:30:58.369+0000] {processor.py:157} INFO - Started process (PID=9169) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:30:58.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:30:58.374+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:58.374+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:30:58.401+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:30:58.431+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:58.431+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:30:58.465+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:30:58.465+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:30:58.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.125 seconds
+[2024-01-09T21:31:29.214+0000] {processor.py:157} INFO - Started process (PID=9223) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:31:29.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:31:29.219+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:31:29.219+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:31:29.240+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:31:29.271+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:31:29.271+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:31:29.312+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:31:29.311+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:31:29.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.143 seconds
+[2024-01-09T21:32:00.149+0000] {processor.py:157} INFO - Started process (PID=9277) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:32:00.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:32:00.155+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:00.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:32:00.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:32:00.211+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:00.211+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:32:00.257+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:00.256+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:32:00.292+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.149 seconds
+[2024-01-09T21:32:31.330+0000] {processor.py:157} INFO - Started process (PID=9330) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:32:31.331+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:32:31.334+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:31.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:32:31.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:32:31.390+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:31.390+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:32:31.434+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:32:31.433+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:32:31.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.140 seconds
+[2024-01-09T21:33:02.451+0000] {processor.py:157} INFO - Started process (PID=9384) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:33:02.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:33:02.456+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:02.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:33:02.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:33:02.517+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:02.517+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:33:02.551+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:02.551+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:33:02.579+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.133 seconds
+[2024-01-09T21:33:32.716+0000] {processor.py:157} INFO - Started process (PID=9438) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:33:32.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:33:32.721+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:32.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:33:32.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:33:32.775+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:32.775+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:33:32.822+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:33:32.822+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:33:32.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.141 seconds
+[2024-01-09T21:34:03.343+0000] {processor.py:157} INFO - Started process (PID=9492) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:34:03.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:34:03.348+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:03.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:34:03.379+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:34:03.422+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:03.421+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:34:03.489+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:03.487+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:34:03.534+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.197 seconds
+[2024-01-09T21:34:34.028+0000] {processor.py:157} INFO - Started process (PID=9546) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:34:34.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:34:34.033+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:34.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:34:34.061+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:34:34.089+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:34.089+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:34:34.126+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:34:34.126+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:34:34.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-01-09T21:35:04.201+0000] {processor.py:157} INFO - Started process (PID=9600) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:35:04.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:35:04.207+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:04.206+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:35:04.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:35:04.257+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:04.257+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:35:04.297+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:04.296+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:35:04.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.127 seconds
+[2024-01-09T21:35:34.637+0000] {processor.py:157} INFO - Started process (PID=9655) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:35:34.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:35:34.643+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:34.642+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:35:34.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:35:34.698+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:34.698+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:35:34.734+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:35:34.733+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:35:34.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-01-09T21:36:05.148+0000] {processor.py:157} INFO - Started process (PID=9709) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:36:05.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:36:05.154+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:05.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:36:05.177+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:36:05.206+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:05.205+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:36:05.239+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:05.238+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:36:05.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.124 seconds
+[2024-01-09T21:36:35.542+0000] {processor.py:157} INFO - Started process (PID=9763) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:36:35.544+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:36:35.548+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:35.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:36:35.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:36:35.602+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:35.602+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:36:35.635+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:36:35.635+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:36:35.661+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.124 seconds
+[2024-01-09T21:37:05.791+0000] {processor.py:157} INFO - Started process (PID=9817) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:37:05.792+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:37:05.795+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:05.795+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:37:05.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:37:05.850+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:05.850+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:37:05.884+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:05.883+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:37:05.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.127 seconds
+[2024-01-09T21:37:36.304+0000] {processor.py:157} INFO - Started process (PID=9872) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:37:36.305+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:37:36.310+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:36.309+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:37:36.332+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:37:36.361+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:36.360+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:37:36.398+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:37:36.398+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:37:36.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T21:38:06.591+0000] {processor.py:157} INFO - Started process (PID=9927) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:38:06.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:38:06.597+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:06.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:38:06.620+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:38:06.649+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:06.649+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:38:06.686+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:06.686+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:38:06.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.131 seconds
+[2024-01-09T21:38:36.978+0000] {processor.py:157} INFO - Started process (PID=9981) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:38:36.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:38:36.982+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:36.982+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:38:37.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:38:37.032+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:37.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:38:37.065+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:38:37.065+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:38:37.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.116 seconds
+[2024-01-09T21:39:07.312+0000] {processor.py:157} INFO - Started process (PID=10035) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:39:07.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:39:07.317+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:07.316+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:39:07.339+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:39:07.370+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:07.369+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:39:07.406+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:07.405+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:39:07.433+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T21:39:37.749+0000] {processor.py:157} INFO - Started process (PID=10089) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:39:37.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:39:37.754+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:37.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:39:37.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:39:37.811+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:37.811+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:39:37.856+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:39:37.856+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:39:37.888+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T21:40:08.245+0000] {processor.py:157} INFO - Started process (PID=10143) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:40:08.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:40:08.249+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:08.248+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:40:08.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:40:08.319+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:08.318+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:40:08.357+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:08.357+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:40:08.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.145 seconds
+[2024-01-09T21:40:38.534+0000] {processor.py:157} INFO - Started process (PID=10197) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:40:38.536+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:40:38.540+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:38.539+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:40:38.562+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:40:38.593+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:38.593+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:40:38.632+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:40:38.631+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:40:38.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2024-01-09T21:41:08.738+0000] {processor.py:157} INFO - Started process (PID=10251) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:41:08.740+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:41:08.744+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:08.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:41:08.784+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:41:08.818+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:08.817+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:41:08.856+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:08.856+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:41:08.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.153 seconds
+[2024-01-09T21:41:39.551+0000] {processor.py:157} INFO - Started process (PID=10304) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:41:39.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:41:39.555+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:39.555+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:41:39.575+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:41:39.605+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:39.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:41:39.639+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:41:39.639+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:41:39.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.116 seconds
+[2024-01-09T21:42:10.451+0000] {processor.py:157} INFO - Started process (PID=10359) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:42:10.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:42:10.456+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:10.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:42:10.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:42:10.515+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:10.514+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:42:10.563+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:10.562+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:42:10.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.154 seconds
+[2024-01-09T21:42:40.840+0000] {processor.py:157} INFO - Started process (PID=10413) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:42:40.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:42:40.844+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:40.844+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:42:40.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:42:40.914+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:40.914+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:42:40.965+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:42:40.964+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:42:40.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.158 seconds
+[2024-01-09T21:43:11.239+0000] {processor.py:157} INFO - Started process (PID=10467) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:43:11.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:43:11.245+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:11.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:43:11.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:43:11.298+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:11.297+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:43:11.335+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:11.335+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:43:11.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds
+[2024-01-09T21:43:41.768+0000] {processor.py:157} INFO - Started process (PID=10521) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:43:41.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:43:41.774+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:41.773+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:43:41.821+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:43:41.870+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:41.870+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:43:41.926+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:43:41.925+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:43:41.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.202 seconds
+[2024-01-09T21:44:13.005+0000] {processor.py:157} INFO - Started process (PID=10575) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:44:13.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:44:13.009+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:13.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:44:13.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:44:13.062+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:13.062+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:44:13.119+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:13.119+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:44:13.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.155 seconds
+[2024-01-09T21:44:44.022+0000] {processor.py:157} INFO - Started process (PID=10629) to work on /opt/airflow/dags/main.py
+[2024-01-09T21:44:44.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-01-09T21:44:44.026+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:44.026+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-01-09T21:44:44.049+0000] {processor.py:839} INFO - DAG(s) dict_keys(['online_retail']) retrieved from /opt/airflow/dags/main.py
+[2024-01-09T21:44:44.078+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:44.077+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-09T21:44:44.113+0000] {logging_mixin.py:151} INFO - [2024-01-09T21:44:44.112+0000] {dag.py:3722} INFO - Setting next_dagrun for online_retail to 2024-01-01T00:00:00+00:00, run_after=2024-02-01T00:00:00+00:00
+[2024-01-09T21:44:44.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main.py took 0.128 seconds

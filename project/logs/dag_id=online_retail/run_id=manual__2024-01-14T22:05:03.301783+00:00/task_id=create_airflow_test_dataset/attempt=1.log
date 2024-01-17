@@ -1,0 +1,18 @@
+[2024-01-14T22:07:36.729+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.create_airflow_test_dataset manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:07:36.743+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.create_airflow_test_dataset manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:07:36.743+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2024-01-14T22:07:36.760+0000] {taskinstance.py:1382} INFO - Executing <Task(BigQueryCreateEmptyDatasetOperator): create_airflow_test_dataset> on 2024-01-14 22:05:03.301783+00:00
+[2024-01-14T22:07:36.767+0000] {standard_task_runner.py:57} INFO - Started process 344 to run task
+[2024-01-14T22:07:36.772+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'create_***_test_dataset', 'manual__2024-01-14T22:05:03.301783+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpt_pfsnn0']
+[2024-01-14T22:07:36.774+0000] {standard_task_runner.py:85} INFO - Job 83: Subtask create_***_test_dataset
+[2024-01-14T22:07:36.840+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.create_airflow_test_dataset manual__2024-01-14T22:05:03.301783+00:00 [running]> on host 6808d18c086e
+[2024-01-14T22:07:36.982+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='create_***_test_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-01-14T22:05:03.301783+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-14T22:05:03.301783+00:00'
+[2024-01-14T22:07:36.999+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-01-14T22:07:37.007+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-01-14T22:07:37.164+0000] {bigquery.py:468} INFO - datasetId was not specified in `dataset_reference`. Will use default value online_retail.
+[2024-01-14T22:07:37.165+0000] {bigquery.py:468} INFO - projectId was not specified in `dataset_reference`. Will use default value master-pager-401705.
+[2024-01-14T22:07:37.165+0000] {bigquery.py:479} INFO - Creating dataset: online_retail in project: master-pager-401705 
+[2024-01-14T22:07:37.847+0000] {bigquery.py:2034} INFO - Dataset online_retail already exists.
+[2024-01-14T22:07:37.885+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=online_retail, task_id=create_***_test_dataset, execution_date=20240114T220503, start_date=20240114T220736, end_date=20240114T220737
+[2024-01-14T22:07:37.950+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-14T22:07:38.037+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

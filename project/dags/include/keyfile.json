@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "master-pager-401705",
+  "private_key_id": "bc34b7e4cadb1fbeb5b00969b1a06a9df313fd9b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAiRMabVSadnnx\nUPKqWwkp9XORNMfAuWca6rFrZCu5GxixMJi+uDyEr5Ku2tKCtqB3CHwZ2FE2pLHm\nTJVG/3R1Zqkdis1mnQ6P6IZkAQz5Lm8Q3tmRYF4mMEKho+8DTmiGODDQY3MCSkWZ\njACvWXAO48kKgdMFkEpZi3ATnWEOXLv6VJCW/w+piHgT5YpS5eGGRhiT0hQe8+sS\nK3SZ6W4K7y2j6Uox6Vl1MRneDpXhFsXH+L/tf2DdgYwrJnNDBWFGBjX4RSXCb29s\nmW189ke6jkS1poC161rUrPxAzkPPxFH7O/CG7WWWocYhxFWnNg/bZi0y4B+15Ck0\nnUKrof51AgMBAAECggEAK5P6/GzJjOqLADkrq65OPS5+mVuiaLcuJJQBU0bJdKyy\n4owWznghzoB0yVni8s4GNNr5R9pDy4Psdi1YTkkMoXP6jCK6CeM7hAwDuwfX2WCO\np/lgsjxnIuqicjaKJyvskZCPT+NqiRapeS8MiqPKLryU6Oloi2ZUxb6/P9lLufWT\n26Zew5WWhtjwufuKxEnzEO8U3GTw08Q5xGyugms3iQR9/dNb5O/eWjD9qE9X7IbN\nCMPY51kqTN0mkmoN9Oqz/wZUJmReIzdpImEli0DMazaYbTCo8xB1Qmd3DtVqsxXx\naFiYfeAJ2Ix3StmKRJ2oCntmd2OV3FIGdcYi+AF1QQKBgQDiR5DGJCEmKtfqrT/D\nQcgMLTpbfco6JwHy9TO/EVZpMJn5zH5uzRg3z+xt582uw8neoUAL6iNPcmg3LJNt\nQCjy1061SEj3lvsiWhMqhT0YbPIQ6/iELOgVBPYtzzpcbf+fiyHImGUcwE7UgyHt\nt6PBT/hgjno5vCx5lXlKejXvlQKBgQDZ0uVMlc8GYuMgVsG5FzJC0Z4yDdzA+ZwV\nQEdiBOhGgfzJ1f8GFehhxHuDKrontKSBMnWKM6E16Q8bjJ2zLkevJZ0sF6esxlH6\nHZunjOXLWhZuavBnAYmJQkmhqXpEIuB7nupCMM/kzGC8Y8ubpb3535TAigbNGW52\nj439w9ebYQKBgFwSuMMXMnHgXwk7w8VEwAzMXoGZ9q6g7rcYtRybBmk5AH5Xil61\nj5QuQ8sY1mW1fy/atz/h3spWCDfjKH387Gyb1YgISMCOK9P3iPL1Uj3dHsZp7i6C\nQ1FCOpW7S8kObURTDcUc1Y/UZH8ueKDM55IiYzOO5gcWHZa/jqIShl3dAoGAOxd2\ncy9U6WOcQCKpDUBYtz3Mj8Go+IT+rdkxREsWhEIxRMQUGh+JWjSGWVAXDjx4QEBj\nGKnm+wwNuCiOg5Rzh/VJTTPhngJzLMopduvHT0JSQYQrUZZeLGlaNkwWyjM3+PFk\nla5OR8CWIaVlEAWHoyjfXthS/gL/L5TELWqarCECgYEAwRDxFLCNkoDVWRzbdcXU\nmqKcc+lxmdVXt34E/MSXdTtt7N6gPLWd/Sbq7zFU2Ix6YOaWuEBf4tYkHHPEWKeI\nb9WXbtAh9XaJ0OAM9ZT+Xajt6UUU/mYTAnRhTPyApJlB9IC3+EHMOBakwuJV5onz\nB1kjyIyTCk4Y3kphnUC5sXg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "airbyte@master-pager-401705.iam.gserviceaccount.com",
+  "client_id": "111782082195974183515",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/airbyte%40master-pager-401705.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

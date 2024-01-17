@@ -1,0 +1,20 @@
+[2024-01-04T19:32:51.638+0000] {taskinstance.py:1149} INFO - Dependencies not met for <TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-04T12:14:24.430451+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'create_***_test_dataset'}
+[2024-01-04T19:32:51.681+0000] {local_task_job_runner.py:154} INFO - Task is not able to be run
+[2024-01-04T19:34:58.925+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T19:34:58.966+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T19:34:58.967+0000] {taskinstance.py:1361} INFO - Starting attempt 12 of 15
+[2024-01-04T19:34:59.027+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): raw_gcs_to_bigquery> on 2024-01-04 12:14:24.430451+00:00
+[2024-01-04T19:34:59.044+0000] {standard_task_runner.py:57} INFO - Started process 158 to run task
+[2024-01-04T19:34:59.059+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'raw_gcs_to_bigquery', 'manual__2024-01-04T12:14:24.430451+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpjtfzf2l_']
+[2024-01-04T19:34:59.063+0000] {standard_task_runner.py:85} INFO - Job 74: Subtask raw_gcs_to_bigquery
+[2024-01-04T19:34:59.242+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-04T12:14:24.430451+00:00 [running]> on host 6808d18c086e
+[2024-01-04T19:34:59.446+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='raw_gcs_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T12:14:24.430451+00:00' AIRFLOW_CTX_TRY_NUMBER='12' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T12:14:24.430451+00:00'
+[2024-01-04T19:34:59.482+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-01-04T19:34:59.495+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-01-04T19:34:59.497+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2024-01-04T19:34:59.767+0000] {bigquery.py:2312} INFO - Project is not included in destination_project_dataset_table: online_retail.raw_online_retail; using project "master-pager-401705"
+[2024-01-04T19:34:59.768+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'master-pager-401705', 'datasetId': 'online_retail', 'tableId': 'raw_online_retail'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://online-retail-data/raw/OnlineRetail.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'skipLeadingRows': None, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-01-04T19:34:59.771+0000] {bigquery.py:1596} INFO - Inserting job ***_online_retail_raw_gcs_to_bigquery_2024_01_04T12_14_24_430451_00_00_7df109683df72ee63ed4c22a11654ac9
+[2024-01-04T19:35:09.472+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=online_retail, task_id=raw_gcs_to_bigquery, execution_date=20240104T121424, start_date=20240104T193458, end_date=20240104T193509
+[2024-01-04T19:35:09.547+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-04T19:35:09.664+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

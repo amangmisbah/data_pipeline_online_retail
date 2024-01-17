@@ -1,0 +1,26 @@
+[2024-01-04T16:50:29.222+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T16:50:29.251+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T16:50:29.252+0000] {taskinstance.py:1361} INFO - Starting attempt 12 of 12
+[2024-01-04T16:50:29.295+0000] {taskinstance.py:1382} INFO - Executing <Task(LocalFilesystemToGCSOperator): up_data_to_gcs> on 2024-01-04 12:14:24.430451+00:00
+[2024-01-04T16:50:29.310+0000] {standard_task_runner.py:57} INFO - Started process 2931 to run task
+[2024-01-04T16:50:29.330+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'up_data_to_gcs', 'manual__2024-01-04T12:14:24.430451+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpvb371ef4']
+[2024-01-04T16:50:29.332+0000] {standard_task_runner.py:85} INFO - Job 36: Subtask up_data_to_gcs
+[2024-01-04T16:50:29.683+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [running]> on host e552979bdd1c
+[2024-01-04T16:50:29.905+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='up_data_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T12:14:24.430451+00:00' AIRFLOW_CTX_TRY_NUMBER='12' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T12:14:24.430451+00:00'
+[2024-01-04T16:50:29.958+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/local_to_gcs.py", line 90, in execute
+    hook = GCSHook(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 164, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 242, in __init__
+    self.extras: dict = self.get_connection(self.gcp_conn_id).extra_dejson
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `google_cloud_default` isn't defined
+[2024-01-04T16:50:29.973+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=online_retail, task_id=up_data_to_gcs, execution_date=20240104T121424, start_date=20240104T165029, end_date=20240104T165029
+[2024-01-04T16:50:29.997+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 36 for task up_data_to_gcs (The conn_id `google_cloud_default` isn't defined; 2931)
+[2024-01-04T16:50:30.043+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-04T16:50:30.087+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

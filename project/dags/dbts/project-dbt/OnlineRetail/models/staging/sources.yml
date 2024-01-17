@@ -1,0 +1,11 @@
+
+# sources.yml
+version: 2
+
+sources:
+  - name: online_retail
+    database: master-pager-401705
+    schema: online_retail
+    tables:
+      - name: raw_online_retail
+      - name: country

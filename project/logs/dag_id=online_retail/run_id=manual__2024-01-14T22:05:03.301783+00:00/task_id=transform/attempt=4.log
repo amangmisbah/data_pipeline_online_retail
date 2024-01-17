@@ -1,0 +1,26 @@
+[2024-01-14T22:22:21.338+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:22:21.352+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:22:21.352+0000] {taskinstance.py:1361} INFO - Starting attempt 4 of 4
+[2024-01-14T22:22:21.370+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): transform> on 2024-01-14 22:05:03.301783+00:00
+[2024-01-14T22:22:21.381+0000] {standard_task_runner.py:57} INFO - Started process 584 to run task
+[2024-01-14T22:22:21.386+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'transform', 'manual__2024-01-14T22:05:03.301783+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp1j_oyz3w']
+[2024-01-14T22:22:21.389+0000] {standard_task_runner.py:85} INFO - Job 90: Subtask transform
+[2024-01-14T22:22:21.473+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [running]> on host 6808d18c086e
+[2024-01-14T22:22:21.625+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-01-14T22:05:03.301783+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-14T22:05:03.301783+00:00'
+[2024-01-14T22:22:21.633+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-14T22:22:21.635+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dbt run --project-dir /opt/***/dag/dbts/project-dbt/OnlineRetail --profiles-dir /opt/***/dag/dbts/project-dbt/OnlineRetail']
+[2024-01-14T22:22:21.656+0000] {subprocess.py:86} INFO - Output:
+[2024-01-14T22:22:28.223+0000] {subprocess.py:93} INFO - Usage: dbt run [OPTIONS]
+[2024-01-14T22:22:28.224+0000] {subprocess.py:93} INFO - Try 'dbt run -h' for help.
+[2024-01-14T22:22:28.224+0000] {subprocess.py:93} INFO - 
+[2024-01-14T22:22:28.225+0000] {subprocess.py:93} INFO - Error: Invalid value for '--project-dir': Path '/opt/***/dag/dbts/project-dbt/OnlineRetail' does not exist.
+[2024-01-14T22:22:28.546+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-01-14T22:22:28.568+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-01-14T22:22:28.575+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=online_retail, task_id=transform, execution_date=20240114T220503, start_date=20240114T222221, end_date=20240114T222228
+[2024-01-14T22:22:28.606+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 90 for task transform (Bash command failed. The command returned a non-zero exit code 2.; 584)
+[2024-01-14T22:22:28.661+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-14T22:22:28.699+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

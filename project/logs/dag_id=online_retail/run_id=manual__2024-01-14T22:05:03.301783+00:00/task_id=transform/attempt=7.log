@@ -1,0 +1,64 @@
+[2024-01-14T22:34:12.452+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:34:12.473+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:34:12.474+0000] {taskinstance.py:1361} INFO - Starting attempt 7 of 7
+[2024-01-14T22:34:12.490+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): transform> on 2024-01-14 22:05:03.301783+00:00
+[2024-01-14T22:34:12.499+0000] {standard_task_runner.py:57} INFO - Started process 768 to run task
+[2024-01-14T22:34:12.503+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'transform', 'manual__2024-01-14T22:05:03.301783+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp5jnz43fu']
+[2024-01-14T22:34:12.504+0000] {standard_task_runner.py:85} INFO - Job 93: Subtask transform
+[2024-01-14T22:34:12.565+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.transform manual__2024-01-14T22:05:03.301783+00:00 [running]> on host 6808d18c086e
+[2024-01-14T22:34:12.702+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-01-14T22:05:03.301783+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-14T22:05:03.301783+00:00'
+[2024-01-14T22:34:12.708+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-14T22:34:12.709+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dbt run --project-dir /opt/***/dags/dbts/project-dbt/OnlineRetail --profiles-dir /opt/***/dags/dbts/project-dbt/OnlineRetail']
+[2024-01-14T22:34:12.739+0000] {subprocess.py:86} INFO - Output:
+[2024-01-14T22:34:21.514+0000] {subprocess.py:93} INFO - [0m22:34:21  Running with dbt=1.7.4
+[2024-01-14T22:34:26.015+0000] {subprocess.py:93} INFO - [0m22:34:26  Registered adapter: bigquery=1.7.2
+[2024-01-14T22:34:26.136+0000] {subprocess.py:93} INFO - [0m22:34:26  Unable to do partial parsing because profile has changed
+[2024-01-14T22:34:32.980+0000] {subprocess.py:93} INFO - [0m22:34:32  [[33mWARNING[0m]: Did not find matching node for patch with name 'stg_onlie_retail' in the 'models' section of file 'models/staging/_schema.yml'
+[2024-01-14T22:34:32.990+0000] {subprocess.py:93} INFO - [0m22:34:32  [[33mWARNING[0m]: Did not find matching node for patch with name 'country' in the 'models' section of file 'models/staging/_schema.yml'
+[2024-01-14T22:34:33.502+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_InvoiceNo.6d7d54b4df' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.504+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_StockCode.a5ed15c441' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.507+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_Description.6de15b9305' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.509+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_Quantity.1bb734f945' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.511+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_InvoiceDateInvoiceDate.0d9ae2301c' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.514+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_UnitPrice.ec42b55505' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.516+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_CustomerID.1d3a3d1374' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.520+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_stg_onlie_retail_Country.83172cfa34' (models/staging/_schema.yml) depends on a node named 'stg_onlie_retail' in package '' which was not found
+[2024-01-14T22:34:33.530+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_id.6d0bc0bf90' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.530+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_iso.adc1953428' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.531+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_name.b733852858' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.531+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_nicename.5371bc57f3' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.535+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_iso3.d9b1ac51d6' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.538+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_numcode.1260798508' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.542+0000] {subprocess.py:93} INFO - [0m22:34:33  [[33mWARNING[0m]: Test 'test.OnlineRetail.not_null_country_phonecode.e7c495cf66' (models/staging/_schema.yml) depends on a node named 'country' in package '' which was not found
+[2024-01-14T22:34:33.844+0000] {subprocess.py:93} INFO - [0m22:34:33  Found 9 models, 2 sources, 0 exposures, 0 metrics, 561 macros, 0 groups, 0 semantic models
+[2024-01-14T22:34:33.854+0000] {subprocess.py:93} INFO - [0m22:34:33
+[2024-01-14T22:34:55.694+0000] {subprocess.py:93} INFO - [0m22:34:55  Concurrency: 1 threads (target='dev')
+[2024-01-14T22:34:55.696+0000] {subprocess.py:93} INFO - [0m22:34:55
+[2024-01-14T22:34:55.714+0000] {subprocess.py:93} INFO - [0m22:34:55  1 of 9 START sql table model online_retail_raw.stg_country ..................... [RUN]
+[2024-01-14T22:35:01.732+0000] {subprocess.py:93} INFO - [0m22:35:01  1 of 9 OK created sql table model online_retail_raw.stg_country ................ [[32mCREATE TABLE (239.0 rows, 13.6 KiB processed)[0m in 6.01s]
+[2024-01-14T22:35:01.739+0000] {subprocess.py:93} INFO - [0m22:35:01  2 of 9 START sql table model online_retail_raw.stg_online_retail ............... [RUN]
+[2024-01-14T22:35:11.318+0000] {subprocess.py:93} INFO - [0m22:35:11  2 of 9 OK created sql table model online_retail_raw.stg_online_retail .......... [[32mCREATE TABLE (541.9k rows, 46.0 MiB processed)[0m in 9.57s]
+[2024-01-14T22:35:11.332+0000] {subprocess.py:93} INFO - [0m22:35:11  3 of 9 START sql table model online_retail_transformed.dim_customer ............ [RUN]
+[2024-01-14T22:35:18.004+0000] {subprocess.py:93} INFO - [0m22:35:18  3 of 9 OK created sql table model online_retail_transformed.dim_customer ....... [[32mCREATE TABLE (4.4k rows, 11.1 MiB processed)[0m in 6.67s]
+[2024-01-14T22:35:18.009+0000] {subprocess.py:93} INFO - [0m22:35:18  4 of 9 START sql table model online_retail_transformed.dim_datetime ............ [RUN]
+[2024-01-14T22:35:24.675+0000] {subprocess.py:93} INFO - [0m22:35:24  4 of 9 OK created sql table model online_retail_transformed.dim_datetime ....... [[32mCREATE TABLE (23.3k rows, 4.1 MiB processed)[0m in 6.66s]
+[2024-01-14T22:35:24.689+0000] {subprocess.py:93} INFO - [0m22:35:24  5 of 9 START sql table model online_retail_transformed.dim_product ............. [RUN]
+[2024-01-14T22:35:32.323+0000] {subprocess.py:93} INFO - [0m22:35:32  5 of 9 OK created sql table model online_retail_transformed.dim_product ........ [[32mCREATE TABLE (16.3k rows, 22.6 MiB processed)[0m in 7.62s]
+[2024-01-14T22:35:32.343+0000] {subprocess.py:93} INFO - [0m22:35:32  6 of 9 START sql table model online_retail_transformed.fact_invoices ........... [RUN]
+[2024-01-14T22:35:41.365+0000] {subprocess.py:93} INFO - [0m22:35:41  6 of 9 OK created sql table model online_retail_transformed.fact_invoices ...... [[32mCREATE TABLE (389.4k rows, 46.9 MiB processed)[0m in 9.01s]
+[2024-01-14T22:35:41.380+0000] {subprocess.py:93} INFO - [0m22:35:41  7 of 9 START sql table model online_retail.report_customer_invoices ............ [RUN]
+[2024-01-14T22:35:47.572+0000] {subprocess.py:93} INFO - [0m22:35:47  7 of 9 OK created sql table model online_retail.report_customer_invoices ....... [[32mCREATE TABLE (10.0 rows, 18.8 MiB processed)[0m in 6.18s]
+[2024-01-14T22:35:47.585+0000] {subprocess.py:93} INFO - [0m22:35:47  8 of 9 START sql table model online_retail.report_product_invoices ............. [RUN]
+[2024-01-14T22:35:54.209+0000] {subprocess.py:93} INFO - [0m22:35:54  8 of 9 OK created sql table model online_retail.report_product_invoices ........ [[32mCREATE TABLE (10.0 rows, 16.7 MiB processed)[0m in 6.62s]
+[2024-01-14T22:35:54.220+0000] {subprocess.py:93} INFO - [0m22:35:54  9 of 9 START sql table model online_retail.report_year_invoices ................ [RUN]
+[2024-01-14T22:36:00.792+0000] {subprocess.py:93} INFO - [0m22:36:00  9 of 9 OK created sql table model online_retail.report_year_invoices ........... [[32mCREATE TABLE (13.0 rows, 9.4 MiB processed)[0m in 6.56s]
+[2024-01-14T22:36:00.816+0000] {subprocess.py:93} INFO - [0m22:36:00
+[2024-01-14T22:36:00.819+0000] {subprocess.py:93} INFO - [0m22:36:00  Finished running 9 table models in 0 hours 1 minutes and 26.96 seconds (86.96s).
+[2024-01-14T22:36:00.918+0000] {subprocess.py:93} INFO - [0m22:36:00
+[2024-01-14T22:36:00.920+0000] {subprocess.py:93} INFO - [0m22:36:00  [32mCompleted successfully[0m
+[2024-01-14T22:36:00.922+0000] {subprocess.py:93} INFO - [0m22:36:00
+[2024-01-14T22:36:00.924+0000] {subprocess.py:93} INFO - [0m22:36:00  Done. PASS=9 WARN=0 ERROR=0 SKIP=0 TOTAL=9
+[2024-01-14T22:36:03.526+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-14T22:36:03.590+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=online_retail, task_id=transform, execution_date=20240114T220503, start_date=20240114T223412, end_date=20240114T223603
+[2024-01-14T22:36:03.662+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-14T22:36:03.710+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

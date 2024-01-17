@@ -1,0 +1,28 @@
+[2024-01-04T13:06:07.366+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.load_raw_data manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T13:06:07.379+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.load_raw_data manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T13:06:07.379+0000] {taskinstance.py:1361} INFO - Starting attempt 4 of 7
+[2024-01-04T13:06:07.397+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): load_raw_data> on 2024-01-04 12:14:24.430451+00:00
+[2024-01-04T13:06:07.406+0000] {standard_task_runner.py:57} INFO - Started process 923 to run task
+[2024-01-04T13:06:07.411+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'load_raw_data', 'manual__2024-01-04T12:14:24.430451+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp8mfjkbl3']
+[2024-01-04T13:06:07.413+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask load_raw_data
+[2024-01-04T13:06:07.642+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.load_raw_data manual__2024-01-04T12:14:24.430451+00:00 [running]> on host e552979bdd1c
+[2024-01-04T13:06:07.853+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='load_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T12:14:24.430451+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T12:14:24.430451+00:00'
+[2024-01-04T13:06:07.878+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-01-04T13:06:07.887+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-01-04T13:06:07.889+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2024-01-04T13:06:08.068+0000] {bigquery.py:2312} INFO - Project is not included in destination_project_dataset_table: online_retail.raw_online_retail; using project "master-pager-401705"
+[2024-01-04T13:06:08.069+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'master-pager-401705', 'datasetId': 'online_retail', 'tableId': 'raw_online_retail'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://online-retail-data/online_retail.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'skipLeadingRows': None, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-01-04T13:06:08.071+0000] {bigquery.py:1596} INFO - Inserting job ***_online_retail_load_raw_data_2024_01_04T12_14_24_430451_00_00_d312f7a27c25a4fca4d3939b87a7cf4e
+[2024-01-04T13:06:11.123+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 439, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 922, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Error while reading data, error message: CSV table encountered too many errors, giving up. Rows: 26832; errors: 100. Please look into the errors[] collection for more details. File: gs://online-retail-data/online_retail.csv
+[2024-01-04T13:06:11.141+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=online_retail, task_id=load_raw_data, execution_date=20240104T121424, start_date=20240104T130607, end_date=20240104T130611
+[2024-01-04T13:06:11.167+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 13 for task load_raw_data (400 Error while reading data, error message: CSV table encountered too many errors, giving up. Rows: 26832; errors: 100. Please look into the errors[] collection for more details. File: gs://online-retail-data/online_retail.csv; 923)
+[2024-01-04T13:06:11.202+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-04T13:06:11.225+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

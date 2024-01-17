@@ -1,0 +1,25 @@
+[2024-01-04T16:39:09.385+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.download_dataset_drive manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T16:39:09.397+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.download_dataset_drive manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T16:39:09.398+0000] {taskinstance.py:1361} INFO - Starting attempt 3 of 6
+[2024-01-04T16:39:09.420+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): download_dataset_drive> on 2024-01-04 12:14:24.430451+00:00
+[2024-01-04T16:39:09.431+0000] {standard_task_runner.py:57} INFO - Started process 2739 to run task
+[2024-01-04T16:39:09.441+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'download_dataset_drive', 'manual__2024-01-04T12:14:24.430451+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpk7hxgpiq']
+[2024-01-04T16:39:09.444+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask download_dataset_drive
+[2024-01-04T16:39:09.545+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.download_dataset_drive manual__2024-01-04T12:14:24.430451+00:00 [running]> on host e552979bdd1c
+[2024-01-04T16:39:09.652+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='download_dataset_drive' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T12:14:24.430451+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T12:14:24.430451+00:00'
+[2024-01-04T16:39:09.657+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-04T16:39:09.657+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '#!/bin/bash\nfileid="1JoLEG5nLxbNek_ttli91kYrprxh86Uaa"\nfilename="online_retail.csv"\nhtml=$(curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}")\ncurl -Lb ./cookie "https://drive.google.com/uc?export=download&$(echo ${html} | grep -Po \'(confirm=[a-zA-Z0-9\\\\-_]+)\')&id=${fileid}" -o "/opt/***/dags/include${filename}"']
+[2024-01-04T16:39:09.682+0000] {subprocess.py:86} INFO - Output:
+[2024-01-04T16:39:17.769+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-01-04T16:39:17.770+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-01-04T16:39:25.773+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0curl: (6) Could not resolve host: drive.google.com
+[2024-01-04T16:39:25.776+0000] {subprocess.py:97} INFO - Command exited with return code 6
+[2024-01-04T16:39:25.797+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 6.
+[2024-01-04T16:39:25.802+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=online_retail, task_id=download_dataset_drive, execution_date=20240104T121424, start_date=20240104T163909, end_date=20240104T163925
+[2024-01-04T16:39:25.819+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task download_dataset_drive (Bash command failed. The command returned a non-zero exit code 6.; 2739)
+[2024-01-04T16:39:25.853+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-04T16:39:25.887+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

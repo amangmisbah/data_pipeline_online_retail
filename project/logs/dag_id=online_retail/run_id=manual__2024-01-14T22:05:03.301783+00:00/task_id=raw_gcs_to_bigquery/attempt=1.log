@@ -1,0 +1,18 @@
+[2024-01-14T22:07:40.960+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:07:40.977+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-14T22:05:03.301783+00:00 [queued]>
+[2024-01-14T22:07:40.978+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2024-01-14T22:07:41.005+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): raw_gcs_to_bigquery> on 2024-01-14 22:05:03.301783+00:00
+[2024-01-14T22:07:41.014+0000] {standard_task_runner.py:57} INFO - Started process 347 to run task
+[2024-01-14T22:07:41.020+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'raw_gcs_to_bigquery', 'manual__2024-01-14T22:05:03.301783+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp8ua4a02a']
+[2024-01-14T22:07:41.022+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask raw_gcs_to_bigquery
+[2024-01-14T22:07:41.095+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.raw_gcs_to_bigquery manual__2024-01-14T22:05:03.301783+00:00 [running]> on host 6808d18c086e
+[2024-01-14T22:07:41.289+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='raw_gcs_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2024-01-14T22:05:03.301783+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-14T22:05:03.301783+00:00'
+[2024-01-14T22:07:41.310+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-01-14T22:07:41.323+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-01-14T22:07:41.326+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2024-01-14T22:07:41.592+0000] {bigquery.py:2312} INFO - Project is not included in destination_project_dataset_table: online_retail.raw_online_retail; using project "master-pager-401705"
+[2024-01-14T22:07:41.593+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'master-pager-401705', 'datasetId': 'online_retail', 'tableId': 'raw_online_retail'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://online-retail-data/raw/OnlineRetail.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'skipLeadingRows': None, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-01-14T22:07:41.596+0000] {bigquery.py:1596} INFO - Inserting job ***_online_retail_raw_gcs_to_bigquery_2024_01_14T22_05_03_301783_00_00_5f2e221418d516b6e01c3dd49624c3cf
+[2024-01-14T22:07:48.462+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=online_retail, task_id=raw_gcs_to_bigquery, execution_date=20240114T220503, start_date=20240114T220740, end_date=20240114T220748
+[2024-01-14T22:07:48.539+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-14T22:07:48.590+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

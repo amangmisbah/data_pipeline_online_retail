@@ -1,0 +1,15 @@
+[2024-01-04T19:33:37.528+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T19:33:37.550+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [queued]>
+[2024-01-04T19:33:37.551+0000] {taskinstance.py:1361} INFO - Starting attempt 17 of 17
+[2024-01-04T19:33:37.580+0000] {taskinstance.py:1382} INFO - Executing <Task(LocalFilesystemToGCSOperator): up_data_to_gcs> on 2024-01-04 12:14:24.430451+00:00
+[2024-01-04T19:33:37.591+0000] {standard_task_runner.py:57} INFO - Started process 101 to run task
+[2024-01-04T19:33:37.596+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'online_retail', 'up_data_to_gcs', 'manual__2024-01-04T12:14:24.430451+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp9e4ltzrt']
+[2024-01-04T19:33:37.599+0000] {standard_task_runner.py:85} INFO - Job 60: Subtask up_data_to_gcs
+[2024-01-04T19:33:37.677+0000] {task_command.py:416} INFO - Running <TaskInstance: online_retail.up_data_to_gcs manual__2024-01-04T12:14:24.430451+00:00 [running]> on host 6808d18c086e
+[2024-01-04T19:33:37.803+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='online_retail' AIRFLOW_CTX_TASK_ID='up_data_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T12:14:24.430451+00:00' AIRFLOW_CTX_TRY_NUMBER='17' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T12:14:24.430451+00:00'
+[2024-01-04T19:33:37.821+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-01-04T19:33:37.830+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-01-04T19:34:28.850+0000] {gcs.py:562} INFO - File /opt/***/dags/include/OnlineRetail.csv uploaded to raw/OnlineRetail.csv in online-retail-data bucket
+[2024-01-04T19:34:30.761+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=online_retail, task_id=up_data_to_gcs, execution_date=20240104T121424, start_date=20240104T193337, end_date=20240104T193430
+[2024-01-04T19:34:31.454+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-04T19:34:31.645+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

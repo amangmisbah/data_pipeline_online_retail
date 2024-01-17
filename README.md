@@ -15,7 +15,7 @@
 | Country     | Country name. The name of the country where each customer resides. | STRING   |
 
 # ARCHITECTURE
-![arcitecture-min](https://github.com/amangmisbah/data_pipeline_online_retail/assets/72803669/74fcf1fb-6906-419d-a5b0-5ee01c5997e9)
+![ARCHITECTURE_DATA (1)](https://github.com/amangmisbah/data_pipeline_online_retail/assets/72803669/9f866211-5ad2-46d2-ac3b-2f58047a73d8)
 
 # TOOLS
   1. Docker
@@ -44,6 +44,7 @@
 3. Mart is table to achieve business goals
 
 # ORCHESTRATION AND SCHEDULING WITH AIRFLOW
+![Screenshot from 2024-01-18 00-44-37](https://github.com/amangmisbah/data_pipeline_online_retail/assets/72803669/dfe64bc9-8f79-4765-8c67-10e140f73945)
 
 
 

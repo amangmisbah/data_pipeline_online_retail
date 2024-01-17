@@ -1,2 +1,1 @@
-# data_pipeline_online_retail
-Data Pipeline Online Retail
+# Data Pipeline Online Retail
